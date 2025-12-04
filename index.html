@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing websites I've built throughout my career">
+    <title>My Portfolio - Web Development Projects</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">My Web Portfolio</h1>
+            <p class="header-subtitle">Showcasing websites built throughout my career</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Filter Section -->
+            <section class="filter-section">
+                <h2 class="section-title">Filter by Category</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                    <button class="filter-btn" data-filter="corporate">Corporate</button>
+                    <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+                    <button class="filter-btn" data-filter="blog">Blog</button>
+                </div>
+            </section>
+
+            <!-- Projects Grid -->
+            <section id="projects" class="projects-section">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 - Add your projects here -->
+                    <article class="project-card" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/667eea/ffffff?text=Project+1" alt="Project 1">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">A fully responsive online shopping platform with cart functionality and payment integration.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card" data-category="corporate">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/764ba2/ffffff?text=Project+2" alt="Project 2">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Corporate Website</h3>
+                            <p class="project-description">Professional business website with responsive design and modern UI/UX principles.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Sass</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card" data-category="portfolio">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/f093fb/ffffff?text=Project+3" alt="Project 3">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Creative Portfolio</h3>
+                            <p class="project-description">Interactive portfolio showcasing creative work with smooth animations and transitions.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">GSAP</span>
+                                <span class="tag">CSS Grid</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 4 -->
+                    <article class="project-card" data-category="blog">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/4facfe/ffffff?text=Project+4" alt="Project 4">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Tech Blog</h3>
+                            <p class="project-description">Modern blogging platform with CMS integration and SEO optimization.</p>
+                            <div class="project-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 5 -->
+                    <article class="project-card" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/43e97b/ffffff?text=Project+5" alt="Project 5">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fashion Store</h3>
+                            <p class="project-description">Stylish e-commerce site with advanced filtering and wishlist features.</p>
+                            <div class="project-tags">
+                                <span class="tag">Shopify</span>
+                                <span class="tag">Liquid</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 6 -->
+                    <article class="project-card" data-category="corporate">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x300/fa709a/ffffff?text=Project+6" alt="Project 6">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary" target="_blank">View Live</a>
+                                <a href="#" class="btn btn-secondary">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SaaS Landing Page</h3>
+                            <p class="project-description">Conversion-focused landing page with analytics integration and A/B testing.</p>
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Tailwind</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I'm a passionate web developer with years of experience creating beautiful, functional websites. Throughout my career, I've worked on diverse projects ranging from e-commerce platforms to corporate websites, always focusing on responsive design and user experience.</p>
+                    <p>My expertise includes modern web technologies, performance optimization, and creating accessible websites that work seamlessly across all devices.</p>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <p>Interested in working together? Feel free to reach out!</p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">Email</a>
+                        <a href="https://github.com/spospisil" class="contact-link" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com" class="contact-link" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
