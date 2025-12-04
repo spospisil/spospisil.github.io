@@ -343,8 +343,8 @@ ul {
 }
 
 .about-image img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: var(--shadow-lg);
@@ -505,8 +505,8 @@ ul {
     }
 
     .about-image img {
-        width: 1%;
-        height: 100px;
+        width: 10%;
+        height: 150px;
         margin-bottom: 20px;
     }
 
@@ -566,8 +566,8 @@ ul {
     }
 
     .about-image img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .about-section,
