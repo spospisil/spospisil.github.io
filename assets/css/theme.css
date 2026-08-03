@@ -681,6 +681,23 @@ ul {
     content: "";
 }
 
+.design-showcase-construction {
+    background: #dedbd4;
+}
+
+.design-showcase-construction::before {
+    background: #0b1018;
+}
+
+.design-showcase-construction .site-shot {
+    border-color: #1a202b;
+    box-shadow: 0 16px 32px rgba(9, 13, 19, 0.3);
+}
+
+.design-showcase-construction .site-shot-mobile {
+    background: #0b1018;
+}
+
 .site-shot {
     position: absolute;
     overflow: hidden;
@@ -1520,7 +1537,8 @@ ul {
         grid-template-columns: minmax(15rem, 0.55fr) minmax(0, 1.45fr);
     }
 
-    .design-project-reverse .design-preview {
+    .design-project-reverse .design-preview,
+    .design-project-reverse .design-showcase {
         grid-column: 2;
         grid-row: 1;
     }
