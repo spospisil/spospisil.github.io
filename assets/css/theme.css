@@ -662,6 +662,74 @@ ul {
     transform: translateX(-50%);
 }
 
+.design-showcase {
+    position: relative;
+    min-width: 0;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #dce8e6;
+    border: 1px solid var(--ink);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+}
+
+.design-showcase::before {
+    position: absolute;
+    inset: 0 0 auto;
+    height: 30%;
+    background: #0b3134;
+    content: "";
+}
+
+.site-shot {
+    position: absolute;
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid #10272b;
+    box-shadow: 0 16px 32px rgba(9, 26, 29, 0.24);
+}
+
+.site-shot img {
+    width: 100%;
+    height: auto;
+}
+
+.site-shot-desktop {
+    top: 5%;
+    left: 4%;
+    width: 88%;
+    border-radius: 5px;
+}
+
+.site-shot-mobile {
+    right: 4%;
+    bottom: 4%;
+    z-index: 2;
+    width: 26%;
+    padding: 0.4rem;
+    background: #10272b;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.site-shot-mobile img {
+    aspect-ratio: 430 / 932;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.mobile-speaker {
+    position: absolute;
+    top: 0.18rem;
+    left: 50%;
+    z-index: 1;
+    width: 22%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.58);
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
 .commerce-canvas,
 .studio-canvas,
 .dashboard-canvas {
