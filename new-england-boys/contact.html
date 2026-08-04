@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tell New England Boys LLC about your residential roofing or decking project and request an estimate.">
+    <meta name="theme-color" content="#0b1018">
+    <title>Request an Estimate | New England Boys LLC</title>
+    <link rel="icon" href="assets/images/new-england-boys-logo.jpeg" type="image/jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+        <div class="nav-shell">
+            <a class="brand" href="index.html" aria-label="New England Boys LLC home">
+                <img class="brand-mark" src="assets/images/new-england-boys-logo.jpeg" alt="" width="640" height="634">
+                <span class="brand-copy"><span class="brand-name">New England Boys</span><span class="brand-tagline">Roofing + Decking</span></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu" data-nav-toggle>
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-panel" id="primary-navigation" aria-label="Primary navigation" data-nav-panel>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+                <a class="nav-mobile-cta" href="contact.html">Request an estimate</a>
+            </nav>
+            <a class="nav-cta" href="contact.html"><span>Request an estimate</span><span class="arrow-icon" aria-hidden="true"></span></a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero page-hero contact-hero" aria-labelledby="page-title">
+            <div class="hero-media" role="img" aria-label="A finished deck extending into a New England woodland"></div>
+            <div class="hero-grid" aria-hidden="true"></div>
+            <div class="container page-hero-layout">
+                <div class="hero-copy">
+                    <h1 id="page-title">Tell us what<br><span>you&rsquo;re building.</span></h1>
+                    <p class="hero-lede">A few details are enough to start a useful conversation about your roof, deck, repair, or rebuild.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" aria-labelledby="contact-title">
+            <div class="container contact-grid">
+                <aside class="contact-intro" data-reveal>
+                    <p class="eyebrow">Request an estimate</p>
+                    <h2 class="display-title" id="contact-title">Let&rsquo;s get the basics on the table.</h2>
+                    <p class="lead">Describe the project in your own words. Photos, measurements, and perfect terminology can come later.</p>
+                    <div class="contact-notes">
+                        <div><span>01</span><p><strong>Best fit</strong>Residential roofing, deck construction, repairs, and rebuilds.</p></div>
+                        <div><span>02</span><p><strong>Service region</strong>Homes across the New England region.</p></div>
+                        <div><span>03</span><p><strong>Helpful details</strong>Town and state, rough timing, current issue, and project goals.</p></div>
+                    </div>
+                </aside>
+
+                <form class="contact-form" data-contact-form data-reveal>
+                    <div class="form-heading">
+                        <span>Project inquiry</span>
+                        <strong>Fields marked * are required</strong>
+                    </div>
+                    <div class="form-grid">
+                        <div class="field-group">
+                            <label for="name">Name *</label>
+                            <input id="name" name="name" type="text" autocomplete="name" required>
+                        </div>
+                        <div class="field-group">
+                            <label for="email">Email *</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required>
+                        </div>
+                        <div class="field-group">
+                            <label for="phone">Phone</label>
+                            <input id="phone" name="phone" type="tel" autocomplete="tel">
+                        </div>
+                        <div class="field-group">
+                            <label for="location">Town / State *</label>
+                            <input id="location" name="location" type="text" autocomplete="address-level2" required>
+                        </div>
+                        <div class="field-group">
+                            <label for="project">Project type *</label>
+                            <select id="project" name="project" required data-project-select>
+                                <option value="">Choose one</option>
+                                <option value="roofing">Roofing</option>
+                                <option value="decking">Decking</option>
+                                <option value="repair">Repair</option>
+                                <option value="both">Roofing + decking</option>
+                                <option value="other">Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="field-group">
+                            <label for="timing">Ideal timing</label>
+                            <select id="timing" name="timing">
+                                <option value="">Choose one</option>
+                                <option value="soon">As soon as practical</option>
+                                <option value="one-three">Within 1-3 months</option>
+                                <option value="three-six">Within 3-6 months</option>
+                                <option value="planning">Planning ahead</option>
+                            </select>
+                        </div>
+                        <div class="field-group field-group-wide">
+                            <label for="details">Project details *</label>
+                            <textarea id="details" name="details" rows="6" placeholder="What are you seeing, changing, or hoping to build?" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-submit">
+                        <button class="button button-primary" type="submit">
+                            <span>Submit project details</span>
+                            <span class="arrow-icon" aria-hidden="true"></span>
+                        </button>
+                        <p class="form-status" data-form-status role="status" hidden></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-next" aria-labelledby="next-title">
+            <div class="container contact-next-grid">
+                <div data-reveal><p class="eyebrow eyebrow-light">What happens next</p><h2 id="next-title">From rough idea to clear next step.</h2></div>
+                <ol>
+                    <li data-reveal><span>01</span><div><h3>We review the request</h3><p>Your project type, location, goals, and timing give us the starting point.</p></div></li>
+                    <li data-reveal><span>02</span><div><h3>We talk through the work</h3><p>We clarify the conditions, priorities, and any questions that affect the scope.</p></div></li>
+                    <li data-reveal><span>03</span><div><h3>We arrange a site look</h3><p>When the project is a fit, the next step is seeing the home and existing conditions firsthand.</p></div></li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a class="brand" href="index.html" aria-label="New England Boys LLC home"><img class="brand-mark" src="assets/images/new-england-boys-logo.jpeg" alt="" width="640" height="634"><span class="brand-copy"><span class="brand-name">New England Boys</span><span class="brand-tagline">Roofing + Decking</span></span></a>
+                <p>Built on pride.<br>Driven by quality.</p>
+            </div>
+            <div class="footer-links">
+                <div><h2>Navigate</h2><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+                <div><h2>Services</h2><a href="services.html#roofing">Roofing</a><a href="services.html#decking">Decking</a><a href="contact.html">Project estimates</a></div>
+            </div>
+        </div>
+        <div class="container footer-bottom"><span>&copy; <span data-year></span> New England Boys LLC</span><span>New England residential construction</span></div>
+    </footer>
+</body>
+</html>

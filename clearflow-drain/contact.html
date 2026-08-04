@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact ClearFlow Drain & Sewer for 24/7 emergency help or request drain cleaning, hydro jetting, camera inspection, and grease trap service.">
+  <title>Contact ClearFlow | Request Drain Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" data-header>
+    <div class="utility-bar">
+      <div class="container utility-bar__inner">
+        <p><i data-lucide="map-pin" aria-hidden="true"></i> Serving Riverbend and surrounding counties</p>
+        <div class="utility-bar__links">
+          <span><i data-lucide="clock-3" aria-hidden="true"></i> 24/7 emergency response</span>
+          <a href="tel:+15550192746"><i data-lucide="phone" aria-hidden="true"></i> (555) 019-2746</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-wrap">
+      <div class="container nav-wrap__inner">
+        <a class="brand" href="index.html" aria-label="ClearFlow Drain and Sewer home">
+          <span class="brand__mark" aria-hidden="true"><i data-lucide="waves"></i></span>
+          <span class="brand__text"><strong>ClearFlow</strong><small>Drain &amp; Sewer</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle>
+          <span class="sr-only">Open navigation</span><i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-navigation>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a class="is-active" href="contact.html" aria-current="page">Contact</a>
+          <a class="button button--nav" href="#request-service"><i data-lucide="calendar-check" aria-hidden="true"></i> Book service</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero page-hero--contact" aria-labelledby="contact-title">
+      <div class="container page-hero__content">
+        <p class="eyebrow eyebrow--light"><span></span> Talk to a local dispatcher</p>
+        <h1 id="contact-title">Contact ClearFlow.</h1>
+        <p class="page-hero__lead">Tell us what the drain is doing. We’ll help determine the next step and find a service time that works.</p>
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><i data-lucide="chevron-right" aria-hidden="true"></i><span>Contact</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section contact-main" id="request-service">
+      <div class="container contact-layout">
+        <aside class="contact-info">
+          <p class="eyebrow"><span></span> Reach ClearFlow</p>
+          <h2>Let’s get things moving.</h2>
+          <p>For active overflows or sewage backups, call dispatch. For routine service, send a request and our team will follow up to confirm details.</p>
+
+          <div class="contact-methods">
+            <a class="contact-method" href="tel:+15550192746">
+              <span class="contact-method__icon"><i data-lucide="phone-call" aria-hidden="true"></i></span>
+              <span><span>Call 24/7 dispatch</span><strong>(555) 019-2746</strong></span>
+            </a>
+            <a class="contact-method" href="mailto:hello@clearflowdrain.com">
+              <span class="contact-method__icon"><i data-lucide="mail" aria-hidden="true"></i></span>
+              <span><span>Email our office</span><strong>hello@clearflowdrain.com</strong></span>
+            </a>
+            <div class="contact-method">
+              <span class="contact-method__icon"><i data-lucide="map-pin" aria-hidden="true"></i></span>
+              <span><span>Local office</span><strong>1840 Current Way, Riverbend</strong></span>
+            </div>
+          </div>
+
+          <div class="emergency-note">
+            <h3>Water actively backing up?</h3>
+            <p>Stop using connected fixtures and call. Emergency dispatch is available around the clock.</p>
+            <a href="tel:+15550192746">Call (555) 019-2746</a>
+          </div>
+        </aside>
+
+        <div class="contact-form-wrap">
+          <h2>Request service</h2>
+          <p>Share a few details and a ClearFlow dispatcher will contact you to confirm the appointment.</p>
+          <form class="contact-form" data-contact-form>
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="postal-code">Postal code</label>
+              <input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" inputmode="numeric" required>
+            </div>
+            <div class="form-field">
+              <label for="service">Service needed</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="drain-cleaning">Drain cleaning</option>
+                <option value="hydro-jetting">Hydro jetting</option>
+                <option value="camera-inspection">Camera inspection</option>
+                <option value="grease-trap">Grease trap cleaning</option>
+                <option value="emergency">Emergency backup</option>
+                <option value="maintenance">Maintenance plan</option>
+                <option value="other">Not sure / other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="property">Property type</label>
+              <select id="property" name="property" required>
+                <option value="">Select property type</option>
+                <option value="home">Home</option>
+                <option value="restaurant">Restaurant / kitchen</option>
+                <option value="managed">Managed property</option>
+                <option value="commercial">Other commercial</option>
+              </select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="details">What’s happening?</label>
+              <textarea id="details" name="details" placeholder="Tell us which fixtures are affected, when it started, and anything you have already tried." required></textarea>
+            </div>
+            <label class="checkbox-field">
+              <input type="checkbox" name="consent" required>
+              <span>I agree that ClearFlow may contact me by phone, text, or email about this service request.</span>
+            </label>
+            <div class="form-actions">
+              <p>Routine requests are answered during office hours. Call for urgent help.</p>
+              <button class="button button--dark" type="submit">Send request <i data-lucide="send" aria-hidden="true"></i></button>
+            </div>
+            <div class="form-success" role="status" tabindex="-1" data-form-success>Request received. A ClearFlow dispatcher will follow up shortly to confirm your service time.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-area" id="service-area">
+      <div class="container service-area__grid">
+        <div class="service-area__visual" role="img" aria-label="Map-style graphic showing the ClearFlow service area around Riverbend">
+          <span class="map-pin map-pin--one"><i data-lucide="map-pin" aria-hidden="true"></i> Oakview</span>
+          <span class="map-pin map-pin--two"><i data-lucide="map-pin" aria-hidden="true"></i> Northfield</span>
+          <span class="map-pin map-pin--main"><i data-lucide="map-pin" aria-hidden="true"></i> Riverbend</span>
+          <span class="map-pin map-pin--three"><i data-lucide="map-pin" aria-hidden="true"></i> Easton</span>
+          <span class="map-pin map-pin--four"><i data-lucide="map-pin" aria-hidden="true"></i> Brookdale</span>
+        </div>
+        <div>
+          <p class="eyebrow"><span></span> Local coverage</p>
+          <h2>Serving Riverbend and nearby communities.</h2>
+          <p class="section-heading__aside">Our crews cover homes and businesses throughout the greater Riverbend area. Call to confirm availability outside the primary service zone.</p>
+          <ul class="area-list">
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Riverbend</li>
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Northfield</li>
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Oakview</li>
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Easton</li>
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Brookdale</li>
+            <li><i data-lucide="map-pin-check" aria-hidden="true"></i> Current Hills</li>
+          </ul>
+          <table class="hours-table">
+            <caption>Office &amp; dispatch hours</caption>
+            <tbody>
+              <tr><th scope="row">Monday–Friday</th><td>7:00 AM–6:00 PM</td></tr>
+              <tr><th scope="row">Saturday</th><td>8:00 AM–3:00 PM</td></tr>
+              <tr><th scope="row">Sunday</th><td>Office closed</td></tr>
+              <tr><th scope="row">Emergency dispatch</th><td class="is-emergency">Open 24/7</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="emergency-cta">
+      <div class="container emergency-cta__inner">
+        <div class="emergency-cta__icon"><i data-lucide="siren" aria-hidden="true"></i></div>
+        <div>
+          <p class="eyebrow eyebrow--light"><span></span> Drain emergency?</p>
+          <h2>Talk to a dispatcher right now.</h2>
+        </div>
+        <a class="button button--light" href="tel:+15550192746"><i data-lucide="phone-call" aria-hidden="true"></i> Call (555) 019-2746</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="brand brand--footer" href="index.html" aria-label="ClearFlow Drain and Sewer home"><span class="brand__mark" aria-hidden="true"><i data-lucide="waves"></i></span><span class="brand__text"><strong>ClearFlow</strong><small>Drain &amp; Sewer</small></span></a>
+        <p>Professional drain and sewer solutions for homes, kitchens, facilities, and businesses across the Riverbend area.</p>
+        <div class="social-links" aria-label="Social media links"><a href="#" aria-label="Facebook"><i data-lucide="facebook" aria-hidden="true"></i></a><a href="#" aria-label="Instagram"><i data-lucide="instagram" aria-hidden="true"></i></a><a href="#" aria-label="LinkedIn"><i data-lucide="linkedin" aria-hidden="true"></i></a></div>
+      </div>
+      <div><h2>Company</h2><ul><li><a href="about.html">About us</a></li><li><a href="services.html">Our services</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html#service-area">Service area</a></li></ul></div>
+      <div><h2>Core services</h2><ul><li><a href="services.html#drain-cleaning">Drain cleaning</a></li><li><a href="services.html#hydro-jetting">Hydro jetting</a></li><li><a href="services.html#camera-inspection">Camera inspection</a></li><li><a href="services.html#grease-traps">Grease trap cleaning</a></li></ul></div>
+      <div class="site-footer__contact">
+        <h2>Get in touch</h2>
+        <a href="tel:+15550192746"><i data-lucide="phone" aria-hidden="true"></i><span><small>24/7 dispatch</small>(555) 019-2746</span></a>
+        <a href="mailto:hello@clearflowdrain.com"><i data-lucide="mail" aria-hidden="true"></i><span><small>Email us</small>hello@clearflowdrain.com</span></a>
+        <p><i data-lucide="map-pin" aria-hidden="true"></i><span><small>Office</small>1840 Current Way, Riverbend</span></p>
+      </div>
+    </div>
+    <div class="container site-footer__bottom"><p>&copy; <span data-current-year></span> ClearFlow Drain &amp; Sewer. All rights reserved.</p><p>Licensed &amp; insured <span aria-hidden="true">•</span> License #CF-28419</p></div>
+  </footer>
+</body>
+</html>
