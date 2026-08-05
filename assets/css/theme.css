@@ -699,6 +699,23 @@ ul {
     background: #0b1018;
 }
 
+.design-showcase-application {
+    background: #dfe8f4;
+}
+
+.design-showcase-application::before {
+    background: #08284d;
+}
+
+.design-showcase-application .site-shot {
+    border-color: #08284d;
+    box-shadow: 0 16px 32px rgba(5, 27, 55, 0.27);
+}
+
+.design-showcase-application .site-shot-mobile {
+    background: #08284d;
+}
+
 .site-shot {
     position: absolute;
     overflow: hidden;
