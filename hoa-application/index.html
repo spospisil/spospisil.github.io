@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Havenridge Property Management portfolio portal.">
-  <title>Sign In | Havenridge Management</title>
+  <meta name="description" content="Havenridge Property Management portfolio dashboard.">
+  <title>Dashboard | Havenridge Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
@@ -12,86 +12,7 @@
   <script src="https://unpkg.com/lucide@latest" defer></script>
   <script src="assets/js/main.js" defer></script>
 </head>
-<body class="login-page">
-  <main class="login-layout">
-    <section class="login-visual" aria-label="Havenridge managed communities">
-      <div class="login-visual__top">
-        <a class="brand brand--light" href="index.html" aria-label="Havenridge Property Management home">
-          <span class="brand__mark"><i data-lucide="building-2" aria-hidden="true"></i></span>
-          <span class="brand__copy"><strong>Havenridge</strong><small>Property Management</small></span>
-        </a>
-      </div>
-      <div class="login-visual__content">
-        <p class="overline">Portfolio operations</p>
-        <h1>Every community,<br>clearly managed.</h1>
-        <div class="community-note">
-          <span class="community-note__icon"><i data-lucide="layers-3" aria-hidden="true"></i></span>
-          <p>One thoughtful workspace for residents, properties, finances, and field operations.</p>
-        </div>
-      </div>
-      <div class="login-visual__footer">
-        <span><i data-lucide="map-pin" aria-hidden="true"></i> Connecticut portfolio</span>
-        <span>3 managed communities</span>
-      </div>
-    </section>
-
-    <section class="login-panel">
-      <div class="login-panel__inner">
-        <div class="login-mobile-brand">
-          <a class="brand" href="index.html" aria-label="Havenridge Property Management home">
-            <span class="brand__mark"><i data-lucide="building-2" aria-hidden="true"></i></span>
-            <span class="brand__copy"><strong>Havenridge</strong><small>Property Management</small></span>
-          </a>
-        </div>
-
-        <div class="login-heading">
-          <p class="overline overline--blue">Management portal</p>
-          <h2>Welcome back</h2>
-          <p>Sign in to continue to your community portfolio.</p>
-        </div>
-
-        <form class="login-form" action="dashboard.html" method="get" data-login-form>
-          <label for="email">Email address</label>
-          <div class="input-wrap">
-            <i data-lucide="mail" aria-hidden="true"></i>
-            <input id="email" name="email" type="text" autocomplete="username" placeholder="name@example.com" required>
-          </div>
-
-          <div class="label-row">
-            <label for="password">Password</label>
-            <a href="dashboard.html">Forgot password?</a>
-          </div>
-          <div class="input-wrap">
-            <i data-lucide="lock-keyhole" aria-hidden="true"></i>
-            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
-            <button class="password-toggle" type="button" aria-label="Show password" data-password-toggle>
-              <i data-lucide="eye" aria-hidden="true"></i>
-            </button>
-          </div>
-
-          <label class="check-row">
-            <input type="checkbox" name="remember">
-            <span>Keep me signed in</span>
-          </label>
-
-          <button class="button button--primary button--wide" type="submit">
-            Sign in <i data-lucide="arrow-right" aria-hidden="true"></i>
-          </button>
-        </form>
-
-        <div class="login-support">
-          <span>Need help accessing your account?</span>
-          <a href="mailto:support@havenridgemgmt.com"><i data-lucide="circle-help" aria-hidden="true"></i> Contact support</a>
-        </div>
-      </div>
-      <footer class="login-footer">
-        <span>&copy; 2026 Havenridge Property Management</span>
-        <nav aria-label="Legal">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-        </nav>
-      </footer>
-    </section>
-  </main>
+<body class="app-page" data-page="dashboard">
+  <div id="app" aria-live="polite"></div>
 </body>
 </html>

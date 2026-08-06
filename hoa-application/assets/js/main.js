@@ -909,7 +909,7 @@ function renderApplication(communityId = getActiveCommunityId()) {
               ${icon("chevrons-up-down")}
             </label>
             <button class="icon-button notification-button" type="button" aria-label="Notifications" data-toast="You have 3 new notifications">${icon("bell")}<span>3</span></button>
-            <div class="user-menu"><span class="avatar">SM</span><div><strong>Sarah Mitchell</strong><small>Portfolio Manager</small></div><a href="index.html" title="Sign out" aria-label="Sign out">${icon("log-out")}</a></div>
+            <div class="user-menu"><span class="avatar">SM</span><div><strong>Sarah Mitchell</strong><small>Portfolio Manager</small></div></div>
           </div>
         </header>
         <main class="app-content" id="main-content">${renderer(community)}</main>
@@ -1019,41 +1019,7 @@ function focusGlobalSearch(event) {
   }
 }
 
-function setupLogin() {
-  const passwordToggle = document.querySelector("[data-password-toggle]");
-  const emailInput = document.querySelector("#email");
-  const passwordInput = document.querySelector("#password");
-  const loginForm = document.querySelector("[data-login-form]");
-  const submitButton = loginForm?.querySelector('button[type="submit"]');
-
-  passwordToggle?.addEventListener("click", () => {
-    const showPassword = passwordInput.type === "password";
-    passwordInput.type = showPassword ? "text" : "password";
-    passwordToggle.setAttribute("aria-label", showPassword ? "Hide password" : "Show password");
-    passwordToggle.innerHTML = icon(showPassword ? "eye-off" : "eye");
-    window.lucide?.createIcons();
-  });
-
-  loginForm?.addEventListener("submit", (event) => {
-    event.preventDefault();
-    window.location.href = "dashboard.html";
-  });
-
-  const isAutoDemo = new URLSearchParams(window.location.search).get("demo") === "auto";
-  if (!isAutoDemo || !emailInput || !passwordInput || !submitButton) return;
-
-  window.setTimeout(() => {
-    emailInput.value = "sarah.mitchell@havenridgemgmt.com";
-    passwordInput.value = "HavenridgeDemo2026!";
-    emailInput.dispatchEvent(new Event("input", { bubbles: true }));
-    passwordInput.dispatchEvent(new Event("input", { bubbles: true }));
-
-    window.setTimeout(() => submitButton.click(), 600);
-  }, 1000);
-}
-
 document.addEventListener("DOMContentLoaded", () => {
-  setupLogin();
   if (document.querySelector("#app")) renderApplication();
   else window.lucide?.createIcons();
 });
